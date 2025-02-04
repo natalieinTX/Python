@@ -1,0 +1,51 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "private_outputs": true,
+      "provenance": [],
+      "authorship_tag": "ABX9TyOHcPDlUpErtrtexBfUyHZV"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "-MaAetWPR0at"
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "class Car:\n",
+        "\n",
+        "    wheels = 4\n",
+        "\n",
+        "    def __init__(self, maker, model):\n",
+        "      self.maker = maker\n",
+        "      self.model = model\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "my_car = Car(\"Ferrari\", \"Testarosa\")\n",
+        "print(my_car.maker)\n",
+        "print(my_car.wheels)"
+      ],
+      "metadata": {
+        "id": "Ia5lAyWASGmf"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
